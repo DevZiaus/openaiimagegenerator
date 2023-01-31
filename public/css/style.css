@@ -145,6 +145,47 @@ footer a:hover{
   font-size: 24px;
 }
 
+@media only screen and (max-width: 600px) {
+
+  .logo h2 {
+    font-size: 1rem;
+  }
+
+  .navbar a {
+    font-size: 1rem;
+  }
+
+  .showcase h1 {
+    font-size: 1.75rem;
+    padding: 0.75rem 0;
+  }
+
+  .showcase form input,
+          form select {
+    width: 300px;
+    max-width: 300px;
+  }
+
+  #image {
+    width: 100%;
+    height: auto;
+  }
+
+}
+
+@media (min-width: 601px) and (max-width: 900px) {
+  .showcase form input,
+          form select {
+    width: 400px;
+    max-width: 400px;
+  }
+
+  #image {
+    width: 100%;
+    height: auto;
+  }
+}
+
 /* @media screen and (max-width: 900px) {
 
     main {
